@@ -7,7 +7,7 @@ def exists_word(word, instance):
 
         for index, line in enumerate(lines):
             if (word.lower() in line.lower()):
-                ocorrencias.append({ "linha": index + 1 })
+                ocorrencias.append({"linha": index + 1})
 
         if (len(ocorrencias) > 0):
             result = {
